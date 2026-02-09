@@ -3,7 +3,7 @@ chcp 65001 >nul
 setlocal EnableExtensions
 
 set "PROJECT_DIR=C:\Users\felipe.maffra\Desktop\Python\Dimensões Indicador"
-set "SCRIPT=Atualizar todas dimensões.py"
+set "SCRIPT=main.py"
 
 cd /d "%PROJECT_DIR%" || (
   echo Falha ao acessar "%PROJECT_DIR%"
